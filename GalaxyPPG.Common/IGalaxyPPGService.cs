@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.ServiceModel;
 
 namespace GalaxyPPG.Common
@@ -10,7 +11,7 @@ namespace GalaxyPPG.Common
         void StartSession(SessionMeta meta);
 
         [OperationContract]
-        void PushSample(EcgSample sample);
+        void PushBatch(List<EcgSample> batch);
 
         [OperationContract]
         void EndSession();

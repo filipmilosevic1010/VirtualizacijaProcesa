@@ -1,5 +1,4 @@
-﻿using GalaxyPPG.Common;
-using System;
+﻿using System;
 using System.ServiceModel;
 
 namespace GalaxyPPG.Service
@@ -15,12 +14,19 @@ namespace GalaxyPPG.Service
                 host.Open();
                 Console.WriteLine("[SERVER] Servis je pokrenut. Pritisnite Enter za zaustavljanje...");
                 Console.ReadLine();
-                host.Close();
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"[SERVER] Greska: {ex.Message}");
                 host.Abort();
+            }
+            finally
+            {
+                if (host.State != CommunicationState.Faulted)
+                    host.Close();
+
+                ((IDisposable)host).Dispose();
+                Console.WriteLine("[SERVER] Servis zaustavljen, resursi oslobodjeni.");
             }
         }
     }
