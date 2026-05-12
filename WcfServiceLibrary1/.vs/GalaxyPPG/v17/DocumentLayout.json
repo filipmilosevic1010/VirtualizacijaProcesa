@@ -3,12 +3,13 @@
   "WorkspaceRootPath": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\WcfServiceLibrary1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75E834BD-57F1-42EC-A895-D8A02BF89393}|GalaxyPPG.Service.csproj|d:\\desktop1\\virtuelizacija\\virtualizacijaprocesa\\wcfservicelibrary1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{75E834BD-57F1-42EC-A895-D8A02BF89393}|GalaxyPPG.Service.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{96C080DE-0B2C-4BBD-B916-55F4EBCE9EF3}|..\\GalaxyPPG.Service\\GalaxyPPG.Service.csproj|d:\\desktop1\\virtuelizacija\\virtualizacijaprocesa\\galaxyppg.service\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E834BD-57F1-42EC-A895-D8A02BF89393}|GalaxyPPG.Service.csproj|d:\\desktop1\\virtuelizacija\\virtualizacijaprocesa\\wcfservicelibrary1\\galaxyppgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E834BD-57F1-42EC-A895-D8A02BF89393}|GalaxyPPG.Service.csproj|solutionrelative:galaxyppgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C080DE-0B2C-4BBD-B916-55F4EBCE9EF3}|..\\GalaxyPPG.Service\\GalaxyPPG.Service.csproj|d:\\desktop1\\virtuelizacija\\virtualizacijaprocesa\\galaxyppg.service\\galaxyppgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C080DE-0B2C-4BBD-B916-55F4EBCE9EF3}|..\\GalaxyPPG.Service\\GalaxyPPG.Service.csproj|d:\\desktop1\\virtuelizacija\\virtualizacijaprocesa\\galaxyppg.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1EC171F-5574-4202-960B-0CA8FFE346A0}|..\\GalaxyPPG.Common\\GalaxyPPG.Common.csproj|d:\\desktop1\\virtuelizacija\\virtualizacijaprocesa\\galaxyppg.common\\igalaxyppgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -24,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,33 +37,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GalaxyPPGService.cs",
-              "DocumentMoniker": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\WcfServiceLibrary1\\GalaxyPPGService.cs",
-              "RelativeDocumentMoniker": "GalaxyPPGService.cs",
-              "ToolTip": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\WcfServiceLibrary1\\GalaxyPPGService.cs",
-              "RelativeToolTip": "GalaxyPPGService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwEoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T11:32:28.932Z",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Service\\App.config",
+              "RelativeDocumentMoniker": "..\\GalaxyPPG.Service\\App.config",
+              "ToolTip": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Service\\App.config",
+              "RelativeToolTip": "..\\GalaxyPPG.Service\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-12T12:08:41.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\WcfServiceLibrary1\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\WcfServiceLibrary1\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-05-12T11:34:07.889Z",
+              "DocumentIndex": 1,
+              "Title": "GalaxyPPGService.cs",
+              "DocumentMoniker": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Service\\GalaxyPPGService.cs",
+              "RelativeDocumentMoniker": "..\\GalaxyPPG.Service\\GalaxyPPGService.cs",
+              "ToolTip": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Service\\GalaxyPPGService.cs",
+              "RelativeToolTip": "..\\GalaxyPPG.Service\\GalaxyPPGService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:06:42.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Service\\Program.cs",
+              "RelativeDocumentMoniker": "..\\GalaxyPPG.Service\\Program.cs",
+              "ToolTip": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Service\\Program.cs",
+              "RelativeToolTip": "..\\GalaxyPPG.Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:04:51.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IGalaxyPPGService.cs",
               "DocumentMoniker": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Common\\IGalaxyPPGService.cs",
               "RelativeDocumentMoniker": "..\\GalaxyPPG.Common\\IGalaxyPPGService.cs",
@@ -75,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop1\\virtuelizacija\\VirtualizacijaProcesa\\GalaxyPPG.Client\\Program.cs",
               "RelativeDocumentMoniker": "..\\GalaxyPPG.Client\\Program.cs",

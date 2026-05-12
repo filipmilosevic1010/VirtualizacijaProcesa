@@ -1,0 +1,10 @@
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\bin\Debug\GalaxyPPG.Service.exe.config
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\bin\Debug\GalaxyPPG.Service.exe
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\bin\Debug\GalaxyPPG.Service.pdb
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\bin\Debug\GalaxyPPG.Common.dll
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\bin\Debug\GalaxyPPG.Common.pdb
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\obj\Debug\GalaxyPPG.Service.csproj.AssemblyReference.cache
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\obj\Debug\GalaxyPPG.Service.csproj.CoreCompileInputs.cache
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\obj\Debug\GalaxyPP.52475DE9.Up2Date
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\obj\Debug\GalaxyPPG.Service.exe
+D:\Desktop1\virtuelizacija\VirtualizacijaProcesa\GalaxyPPG.Service\obj\Debug\GalaxyPPG.Service.pdb
