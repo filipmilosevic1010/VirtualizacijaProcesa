@@ -15,7 +15,8 @@ namespace GalaxyPPG.Client
             Console.Write("Unesite ID ucesnika (npr. P01): ");
             string participantId = Console.ReadLine();
 
-            string csvPath = Path.Combine("Data", participantId, "PolarH10", "ECG.csv");
+            string datasetPath = ConfigurationManager.AppSettings["DatasetPath"];
+            string csvPath = Path.Combine(datasetPath, participantId, "PolarH10", "ECG.csv");
 
             if (!File.Exists(csvPath))
             {
@@ -53,7 +54,7 @@ namespace GalaxyPPG.Client
 
                 using (StreamReader reader = new StreamReader(csvPath))
                 {
-                    string header = reader.ReadLine(); // preskoci zaglavlje
+                    string header = reader.ReadLine();
 
                     while (!reader.EndOfStream)
                     {
@@ -64,18 +65,18 @@ namespace GalaxyPPG.Client
 
                         try
                         {
-                            if (cols.Length < 9)
+                            if (cols.Length < 3)
                                 throw new Exception("Nedovoljan broj kolona");
 
                             EcgSample sample = new EcgSample
                             {
-                                TimestampMs = ParseLong(cols[0]),
-                                EcgMicroV = ParseDouble(cols[1]),
-                                HeartRate = ParseDouble(cols[2]),
-                                IBI_ms = ParseDouble(cols[3]),
-                                AccX = ParseDouble(cols[4]),
-                                AccY = ParseDouble(cols[5]),
-                                AccZ = ParseDouble(cols[6]),
+                                TimestampMs = ParseLong(cols[0]),   // phoneTimestamp
+                                EcgMicroV = ParseDouble(cols[2]),   // ecg (cols[1] je sensorTimestamp)
+                                HeartRate = null,
+                                IBI_ms = null,
+                                AccX = null,
+                                AccY = null,
+                                AccZ = null,
                                 ParticipantId = participantId,
                                 RowIndex = rowIndex
                             };
@@ -100,7 +101,6 @@ namespace GalaxyPPG.Client
                         rowIndex++;
                     }
 
-                    // Pošalji poslednji blok ako ima ostatka
                     if (batch.Count > 0)
                     {
                         proxy.PushBatch(batch);

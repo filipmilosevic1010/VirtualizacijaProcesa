@@ -8,9 +8,13 @@ namespace GalaxyPPG.Common
     public interface IGalaxyPPGService
     {
         [OperationContract]
+        [FaultContract(typeof(DataFormatFault))]
+        [FaultContract(typeof(ValidationFault))]
         void StartSession(SessionMeta meta);
 
         [OperationContract]
+        [FaultContract(typeof(DataFormatFault))]
+        [FaultContract(typeof(ValidationFault))]
         void PushBatch(List<EcgSample> batch);
 
         [OperationContract]
